@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Brand palette (taken from the app logo) -->
+    <color name="brand_primary">#F26B3A</color>
+    <color name="brand_primary_dark">#D9531F</color>
+    <color name="brand_soft">#FCDFD7</color>
+    <color name="text_primary">#2B1B14</color>
+    <color name="text_secondary">#7A6A63</color>
+    <color name="correct_green">#2E9E5B</color>
+    <color name="correct_green_soft">#DDF4E6</color>
+    <color name="wrong_red">#D93B3B</color>
+    <color name="wrong_red_soft">#FBDDDD</color>
+
+</resources>

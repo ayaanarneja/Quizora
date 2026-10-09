@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Quizora</string>
+    <string name="tagline">#WhereFunMeetsFacts!</string>
+    <string name="logo_description">Quizora logo</string>
+    <string name="credits">Made by Ayaan | GDG 2026</string>
+</resources>

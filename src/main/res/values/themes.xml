@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Light Material 3 theme. Must be an AppCompat-compatible theme because all screens
+         extend AppCompatActivity. -->
+    <style name="Theme.StudyJams" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/brand_primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/brand_soft</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+    </style>
+
+    <style name="Widget.StudyJams.Button" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/brand_primary</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:minHeight">54dp</item>
+        <item name="cornerRadius">16dp</item>
+    </style>
+
+    <style name="Widget.StudyJams.Button.Outlined" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="strokeColor">@color/brand_primary</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="android:textColor">@color/brand_primary_dark</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:minHeight">54dp</item>
+        <item name="cornerRadius">16dp</item>
+    </style>
+
+    <style name="Widget.StudyJams.Option" parent="Widget.Material3.CompoundButton.RadioButton">
+        <item name="android:background">@drawable/option_bg</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">14dp</item>
+        <item name="buttonTint">@color/brand_primary</item>
+    </style>
+
+    <style name="Widget.StudyJams.Input" parent="">
+        <item name="android:background">@drawable/box2</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textColorHint">@color/text_secondary</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+</resources>
